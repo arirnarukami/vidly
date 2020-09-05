@@ -20,6 +20,6 @@ namespace Vidly.Models
         [Required]
         public int Stok { get; set; }
         public Genre Genre { get; set; }
-        public int GenreId { get; set; }
+        public byte GenreId { get; set; }
     }
 }
