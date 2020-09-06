@@ -16,9 +16,8 @@ namespace Vidly.Migrations
             Sql("INSERT INTO Genres (Id, Name) VALUES (3, 'Romance')");
             Sql("INSERT INTO Genres (Id, Name) VALUES (4, 'Family')");
             Sql("INSERT INTO Genres (Id, Name) VALUES (5, 'Thriller')");
-
         }
-
+        
         public override void Down()
         {
         }
