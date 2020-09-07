@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
 using Vidly.Models;
+using Vidly.Dtos;
 
 namespace Vidly.Dtos
 {
@@ -20,6 +21,7 @@ namespace Vidly.Dtos
 
         public bool IsSubscribedToNewsLetter { get; set; }
 
+        public MembershipTypeDto MembershipType { get; set; }
         public byte MembershipTypeId { get; set; }
     }
 }
