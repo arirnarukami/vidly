@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
+using Vidly.Models;
+using Vidly.Dtos;
 
 namespace Vidly.Dtos
 {
@@ -26,5 +28,6 @@ namespace Vidly.Dtos
 
         [Required(ErrorMessage = "The Genre field is required.")]
         public byte GenreId { get; set; }
+        public GenreDto Genre { get; set; }
     }
 }
